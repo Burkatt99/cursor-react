@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao|Neucha|Patrick+Hand&display=swap');
+.post{
+	width: 60%;
+	display: flex;
+	background-color: #CDC1C5;
+	margin-left: 20%;
+	margin-top: 150px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-bottom: 100px;
+}
+.imgPost{
+	height: auto;
+	margin-left: 50px;
+}
+.imgPost img{
+	width: 85%;
+	border-radius: 8%;
+}
+.mainInfAutor, .imgPost{
+	width: 90%;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+.author{
+	padding-top: 10px;
+	margin-left: 20px;
+}
+.icons{
+	width: 90%;
+	margin: 20px 110px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.icons img{
+	width: 35px;
+	height: auto;
+}
+#photo{
+	padding-top: 20px;
+	width: 20%;
+}
+#photo img{
+	width: 100%;
+	border-radius: 100%;
+	margin:0 5px 10px 5px;
+}
+#name, #msg{
+	margin-top: 5px;
+	font-size: 45px;
+	font-family: 'Patrick Hand', cursive;
+}
+#nickname, #data{
+	margin-top: 20px;
+	font-size: 30px;
+	font-family: 'Liu Jian Mao Cao';
+}
+#data{
+	font-family: 'Neucha', cursive;
+}
+#msg{
+	font-size: 20px;
+}
+.icons span{
+	font-size: 25px;
+	font-family:'Patrick Hand', cursive;
+	margin-right: 70px; 
+}
+p{
+	text-align: center;
+	font-size: 25px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	margin-left: 250px;;
+}
